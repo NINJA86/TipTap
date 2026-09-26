@@ -1,3 +1,5 @@
+<img width="1254" height="403" alt="TipTapLogo" src="https://github.com/user-attachments/assets/971b3ddd-f462-46a9-a2b9-71741e386bd9" />
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
