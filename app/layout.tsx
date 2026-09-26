@@ -3,8 +3,6 @@ import { outfitFont } from './fonts';
 import './globals.css';
 import { Inter } from 'next/font/google';
 import { cn } from '@/lib/utils';
-import { SidebarProvider } from '@/components/ui/sidebar';
-import SidebarPanel from '@/components/layout/sidebar-panel';
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-sans' });
 
@@ -25,11 +23,7 @@ export default function RootLayout({ children }: LayoutProps<'/'>) {
         inter.variable,
       )}
     >
-      <body className={` ${outfitFont.className} min-h-full flex flex-col`}>
-        <SidebarProvider>
-          <SidebarPanel />
-        </SidebarProvider>
-
+      <body className={`${outfitFont.className} min-h-full flex flex-col`}>
         {children}
       </body>
     </html>

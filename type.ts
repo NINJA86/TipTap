@@ -9,5 +9,5 @@ export interface linkItems {
 
 export interface menuItems extends linkItems {
   icon: ElementType;
-  subItems?: Items[];
+  subItems?: linkItems[];
 }
